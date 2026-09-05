@@ -6,3 +6,6 @@ def retry(func, times=3, delay=1):
         except Exception:
             time.sleep(delay)
     raise Exception("failed")
+def greet():
+    return "hello"
+print(retry(greet,3,1))
