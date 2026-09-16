@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Vijay",
+        "scores": [80, 90, 85]
+    },
+    {
+        "name": "Rahul",
+        "scores": [70, 60, 75]
+    }
+]
